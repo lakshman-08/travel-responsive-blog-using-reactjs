@@ -1,0 +1,85 @@
+.home-bg {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.about-bg {
+  width: 100%;
+  height: 70vh;
+  position: relative;
+}
+
+.about-bg h1 {
+  padding: 4rem !important;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.show:hover {
+  background-color: #01959a;
+  color: #fff;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+.home-text {
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  bottom: 90px;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.home-text h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  background: black;
+  color: white;
+  -webkit-background-clip: text;
+  -webkit-background-fill-color: transparent;
+}
+
+.home-text p {
+  font-size: 1.3rem;
+  color: white;
+  padding: 0.5rem 0 2rem 0;
+}
+
+.home-text .show {
+  text-decoration: none;
+  background: white;
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: black;
+}
+.home-text .show:hover {
+  background: black;
+  color: white;
+}
+
+@media screen and (max-width: 555px) {
+  .hero-text h1 {
+    padding: 10px 20px;
+  }
+
+  .hero-text p {
+    font-size: 1.1rem;
+    padding: 0 0 2rem 0;
+  }
+
+  .home-text .show {
+    padding: 0.6rem 1.1rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: white;
+  }
+
+  .home-text .show:hover {
+    background: black;
+    color: white;
+  }
+}
